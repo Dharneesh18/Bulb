@@ -1,0 +1,21 @@
+body{
+    background: black;
+}
+h1{
+    background: black;
+}
+h1{
+    
+    animation:blinker 1.5ms linear infinite;
+
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@keyframes blinker{
+    50%{
+        opacity: 0;
+    }
+}
+img{
+    margin-top: 100px;
+}
